@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.chaitanya.caffinated.MainActivity7">
+
+        <TextView
+            android:text="@string/cafe_coratdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/textView16"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText29"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:inputType="none"
+            android:text="@string/description_16"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="44dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText27"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+            android:textColor="@string/purple"
+            android:text="@string/instruction"
+            android:layout_below="@+id/editText29" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText28"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:text="@string/description_17"
+            android:inputType="none"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/editText27" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText26"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@string/purple"
+            android:text="@string/info"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+            android:textIsSelectable="false"
+            android:layout_below="@+id/editText28"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText25"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:inputType="none"
+            android:layout_marginTop="10dp"
+            android:text="@string/description_18"
+            android:layout_below="@+id/editText26" />
+
+    </RelativeLayout>
+</ScrollView>
